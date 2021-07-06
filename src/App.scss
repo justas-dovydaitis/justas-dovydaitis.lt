@@ -1,0 +1,32 @@
+.background {
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-color: #000;
+
+    z-index: -1;
+}
+.content {
+    position: fixed;
+
+    width: 100%;
+    height: 100%;
+
+    &__container {
+        display: block;
+
+        margin: 2rem;
+        width: 100%;
+    }
+}
+
+footer {
+    position: absolute;
+    bottom: 2rem;
+    align-self: center;
+}

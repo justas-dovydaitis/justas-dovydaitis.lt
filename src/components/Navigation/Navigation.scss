@@ -1,0 +1,33 @@
+.navigation {
+    display: flex;
+    position: sticky;
+
+    top: 70vh;
+
+    justify-content: flex-end;
+
+    &__items {
+        padding: 0;
+        list-style: none;
+    }
+    &__item {
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 0.5em;
+    }
+    &__link {
+        position: relative;
+        padding: 0.25em;
+        white-space: nowrap;
+        background-color: transparent;
+        color: inherit;
+        text-decoration: none;
+        -ms-touch-action: manipulation;
+        touch-action: manipulation;
+
+        &--active {
+            background-color: white;
+            color: black;
+        }
+    }
+}
