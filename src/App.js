@@ -10,6 +10,10 @@ import { Parallax } from './components/Parallax/Parallax.jsx';
 
 import './App.scss';
 import image from './assets/portrait-michael.jpg';
+import aboutPage from './assets/pages/About.md';
+import experiencePage from './assets/pages/Experience.md';
+import educationPage from './assets/pages/Education.md';
+import contactPage from './assets/pages/Contact.md';
 
 function App() {
     const [height, setHeight] = useState(0);
@@ -37,16 +41,16 @@ function App() {
                     <Router>
                         <Switch>
                             <Route path='/about'>
-                                <Page pagePath='./Pages/About.md' />
+                                <Page pagePath={aboutPage} />
                             </Route>
                             <Route path='/education'>
-                                <Page pagePath='./Pages/Education.md' />
+                                <Page pagePath={educationPage} />
                             </Route>
                             <Route path='/experience'>
-                                <Page pagePath='./Pages/Experience.md' />
+                                <Page pagePath={experiencePage} />
                             </Route>
                             <Route path='/contact'>
-                                <Page pagePath='./Pages/Contact.md' />
+                                <Page pagePath={contactPage} />
                             </Route>
                         </Switch>
 
