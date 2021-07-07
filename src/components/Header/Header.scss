@@ -18,9 +18,16 @@
     }
 
     &__title-spacer {
-        margin: 0 2rem;
+        margin: 0 0rem;
         &::after {
-            content: '❖';
+            content: ', ';
+        }
+
+        @media screen and (min-width: 455px) {
+            margin: 0 2rem;
+            &::after {
+                content: '❖';
+            }
         }
     }
 }

@@ -13,7 +13,10 @@
     &__item {
         display: inline-block;
         vertical-align: top;
-        margin-right: 0.5em;
+
+        @media screen and (min-width: 375px) {
+            margin-right: 0.5em;
+        }
     }
     &__link {
         position: relative;
