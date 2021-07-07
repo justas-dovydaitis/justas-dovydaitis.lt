@@ -21,7 +21,7 @@ function App() {
 
     useEffect(() => {
         setHeight(backgroundEl.current.offsetHeight);
-    });
+    }, []);
 
     return (
         <>
@@ -35,7 +35,7 @@ function App() {
                 </Parallax>
             </div>
 
-            <Parallax ratio={-0.001} center={false}>
+            <Parallax ratio={0.001} center={false}>
                 <Frame>
                     <Header />
                     <Router>
@@ -53,7 +53,6 @@ function App() {
                                 <Page pagePath={contactPage} />
                             </Route>
                         </Switch>
-
                         <footer>
                             <Navigation>
                                 <NavigationItem to='/about'>

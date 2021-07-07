@@ -77,9 +77,12 @@
         &::-webkit-scrollbar-track-piece:start {
             margin-top: 2px;
         }
+        &::-webkit-scrollbar-track-piece:end {
+            margin-bottom: 2px;
+        }
 
         &::-webkit-scrollbar-thumb {
-            background-color: black;
+            background-color: #ffffff;
             border-radius: 0rem 1rem 1rem 0;
         }
     }
