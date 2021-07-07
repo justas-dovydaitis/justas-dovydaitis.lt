@@ -1,13 +1,28 @@
-### Fakshit
+## About
 
-Competently transition dynamic sources for state of the art users. Authoritatively whiteboard inexpensive "outside the box" thinking after revolutionary meta-services. Credibly drive superior e-commerce through highly efficient sources. Compellingly empower turnkey ROI for strategic portals. Continually initiate enabled infrastructures for process-centric e-commerce.
+### Profession
 
-Distinctively seize premier convergence rather than business data. Energistically impact technically sound platforms for distinctive models. Competently pontificate best-of-breed intellectual capital through world-class architectures. Intrinsicly revolutionize viral models before functionalized convergence. Intrinsicly deploy front-end opportunities with distinctive methods of empowerment.
+Currently, I am a freelance full-stack developer and looking for a full-time front-end developer job. By job I mean, not just a job, but also an environment in which I could continually improve my professional and human skills. As a programmer, I value clean and quality code the most. Because of that, I am always trying to provide a clean and reasonable code event if it will cost extra time for me.
 
-Continually implement front-end strategic theme areas for equity invested human capital. Interactively provide access to end-to-end e-commerce with prospective value. Authoritatively mesh long-term high-impact potentialities through resource sucking users. Rapidiously synergize focused expertise after business meta-services. Compellingly disintermediate multidisciplinary convergence before economically sound e-services.
+#### Stack:
 
-Collaboratively productivate client-focused outsourcing with premier web-readiness. Quickly build intermandated ideas and premier processes. Phosfluorescently restore equity invested web services and multifunctional human capital. Continually plagiarize highly efficient metrics whereas interactive customer service. Rapidiously generate progressive technology after extensible total linkage.
+-   Javascript / Typescript / ReactJS / Angular / NodeJS
+-   CSS / SCSS
+-   HTML
+-   C# / .NET / ASP.NET / WPF
+-   C++ / Arduino
+-   MySQL / SQLite / MongoDB
 
-Enthusiastically leverage existing next-generation initiatives through web-enabled applications. Credibly synergize high-quality technologies without world-class interfaces. Completely supply interoperable e-tailers after user friendly value. Uniquely monetize performance based innovation for top-line systems. Compellingly promote functional convergence and principle-centered total linkage.
+### Hobbies & Interests
 
-Distinctively engineer high standards in e-commerce rather than timely human.
+#### Motorcycles
+
+I love motorcycles and the culture of riders. It is and integral part of my life and It is starting to be more than just a hobby. It is now more like a lifestyle. The wind, engine roaring, acceleration, freedom, and a tiny bit of adrenaline are just enough to make me smile even after the worst day.
+
+#### Music
+
+Like many other people, I can't imagine life without music. I believe that music can tell some things about a person.
+I usually vibe on rock, R&B, soul, funk, disco, and jazz (usually instrumental music) but it can variate depending on the mood.
+Mostly listening to older music. The '80s is my favorite decade but it can variate around two decades up and down also.
+
+I am always open to share my playlists on [Spotify](https://open.spotify.com/user/11148697856?si=4c4181ea13464df6)
