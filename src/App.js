@@ -30,7 +30,7 @@ function App() {
                     <CanvasImage
                         imagePath={image}
                         width={height}
-                        heigh={height}
+                        heigh={height} 
                     />
                 </Parallax>
             </div>
