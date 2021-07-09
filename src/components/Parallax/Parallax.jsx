@@ -14,7 +14,6 @@ export const Parallax = (props) => {
 
     useEffect(() => {
         let referencePoint = props.center ? calcBlockCenter() : [0, 0];
-
         const mouseMoveFunc = function (event) {
             const transformX =
                 (event.clientX - referencePoint[0]) * props.ratio;
@@ -24,12 +23,17 @@ export const Parallax = (props) => {
 
             movingElement.current.style.transform = `translate(${transformX}px, ${transformY}px)`;
         };
+
         window.onresize = (event) => {
             referencePoint = props.center ? calcBlockCenter() : [0, 0];
         };
-        document.addEventListener('mousemove', mouseMoveFunc);
+        if (!('ontouchstart' in document.documentElement)) {
+            document.addEventListener('mousemove', mouseMoveFunc);
+        }
         return () => {
-            document.removeEventListener('mousemove', mouseMoveFunc);
+            if (!('ontouchstart' in document.documentElement)) {
+                document.removeEventListener('mousemove', mouseMoveFunc);
+            }
         };
     }, [props.center, props.ratio]);
 
