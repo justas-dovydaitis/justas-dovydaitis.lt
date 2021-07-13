@@ -26,6 +26,7 @@ Otherwise, sometimes I get more interesting projects. A few of them are:
     - Importing Participants from past events.
     - Qualification calculation.
     - Lap taking.
+    - Penalty setting.
     - Reports printing.
     - Combining different race classes into one.
     - Live results presentation.
