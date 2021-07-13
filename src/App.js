@@ -9,11 +9,12 @@ import { Page } from './components/Page/Page.jsx';
 import { Parallax } from './components/Parallax/Parallax.jsx';
 
 import './App.scss';
-import image from './assets/portrait-michael.jpg';
+import image from './assets/portrait-justas.jpg';
 import aboutPage from './assets/pages/About.md';
 import experiencePage from './assets/pages/Experience.md';
 import educationPage from './assets/pages/Education.md';
 import contactPage from './assets/pages/Contact.md';
+import resume from './assets/resume.pdf';
 
 function App() {
     const [height, setHeight] = useState(0);
@@ -35,7 +36,7 @@ function App() {
                 </Parallax>
             </div>
 
-            <Parallax ratio={0.001} center={false}>
+            <Parallax ratio={0.005} center={false}>
                 <Frame>
                     <Header />
                     <Router>
@@ -66,6 +67,9 @@ function App() {
                                 </NavigationItem>
                                 <NavigationItem to='/contact'>
                                     Contact
+                                </NavigationItem>
+                                <NavigationItem to={resume} target="_blank">
+                                    Download Resume
                                 </NavigationItem>
                             </Navigation>
                         </footer>
