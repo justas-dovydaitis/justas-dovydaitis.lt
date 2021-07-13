@@ -4,4 +4,4 @@
 
 _(2016-09-01 - Now)_
 
-Energistically orchestrate technically sound collaboration and idea-sharing via multifunctional partnerships. Distinctively morph bleeding-edge e-commerce after market-driven initiatives. Dramatically parallel task out-of-the-box web services for exceptional schemas. Holisticly pursue quality technologies without optimal products. Appropriately visualize end-to-end infrastructures and multidisciplinary e-services.
+I've started my software engineering studies with no knowledge about programming. I just knew that I like computers and tech. There was a variety of subjects that I learned over those years in university. Starting basic object-oriented programming and ending teamwork concepts. Studies developed not only software engineering skills but also soft skills like time management and responsibility. I do not have a degree yet, but I will have one in 2022.
